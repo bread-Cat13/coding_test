@@ -1,0 +1,8 @@
+n, m = map(int, input().split())
+finalLst = []
+
+for i in range(n):
+    rowlst = list(map(int, input().split()))
+    finalLst.append(min(rowlst))
+
+print(max(finalLst))
